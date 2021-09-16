@@ -41,6 +41,6 @@ jobs:
         run: npm install --global surge
         
       - name: Deploy to Surge
-        run: surge ./build project002.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build projectradika.surge.sh --token ${{secrets.SURGE_TOKEN}}
 
 
